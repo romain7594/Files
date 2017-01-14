@@ -55,3 +55,21 @@ def traduction(sequence):
 		prot += code[sequence[i:i+3]]
 
 	return prot
+
+
+
+
+# Fonction qui retourne un dictionnaire qui donne le code 1 lettre d'un acide amine à partir du code 3 lettres
+def aa_3_to_1() :
+	D = {	"GLY":"G", "PRO":"P",
+		"ALA":"A", "VAL":"V",
+		"LEU":"L", "ILE":"I",
+		"MET":"M", "CYS":"C",
+		"PHE":"F", "TYR":"Y",
+		"TRP":"W", "HIS":"H",
+		"LYS":"K", "ARG":"R",
+		"GLN":"Q", "ASN":"N",
+		"GLU":"E", "ASP":"D",
+		"SER":"S", "THR":"T"	}
+	
+	return D
