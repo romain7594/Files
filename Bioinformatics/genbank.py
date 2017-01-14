@@ -1,4 +1,11 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
 # Retourne la séquence d'un genbank
+"""
+Entree : fichier genbank (gb)
+Sortie : sequence ADN
+"""
 def sequence(fichier):
 	Sequence = ''
 
