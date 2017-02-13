@@ -1,4 +1,4 @@
-Pour les algorithmes des kmeans et des kmedoides, il vaut faut créer une fonction qui permet de calculer la distance entre deux vecteurs de valeurs de même dimension. Faites attention si vous vecteurs sont binaires ou non.
+Pour les algorithmes des kmeans et des kmedoides, il vaut faut créer une fonction qui permet de calculer la distance entre deux vecteurs de valeurs de même dimension. Faites attention si vos vecteurs sont binaires ou non.
 
 Pour l'algorithme des kmeans, il faut en plus passer en argument de la fonction une liste de vecteurs qui sont vos centres initiaux. Le k sera le nombre de centres.
 
