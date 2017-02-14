@@ -11,14 +11,14 @@ Sortie : Liste des groupes formés
 """
 def initialise_k_group(dico, metrique, centres):
 	identifiant = dico.keys() ### identifiants
-	groupes = centres
-	
+	groupes = [[] for i in range(len(centres))]
+
 	### Calcul des distances ###
 	for j in range(len(identifiant)):
 		distance = []
 
-		for l in range(len(groupes)):
-			D = metrique(groupes[l], dico[identifiant[j]])
+		for l in range(len(centres)):
+			D = metrique(centres[l], dico[identifiant[j]])
 
 			distance.append([D, l, identifiant[j]])
 				   # [distance, indice du groupe, nom de l'identifiant]
@@ -38,11 +38,11 @@ Entree : un cluster (liste), dictionnaire {identifiant : vecteur valeurs}
 Sortie : vecteur moyen
 """
 def moyenne_groupe(cluster, dico_matrice):
-	vect_moy = [0]*len(cluster[0])
+	vect_moy = [0 for i in range(len(dico_matrice[dico_matrice.keys()[0]]))]
 
 	for i in cluster :
 		for j in range(len(vect_moy)):
-			vect_moy[j] += dico_matrice[i][j]
+			vect_moy[j] += float(dico_matrice[i][j])
 		
 	vect_moy2 = [p/len(cluster) for p in vect_moy]
 	
@@ -60,7 +60,7 @@ def refaire_group(clusters, dico_matrice, metrique):
 	centres = []
 	new_group = [[] for i in range(len(clusters))]
 	identifiant = dico_matrice.keys()
-	
+
 	for x in clusters:
 		centres.append(moyenne_groupe(x, dico_matrice))
 
@@ -119,7 +119,7 @@ Entree : dictionnaire {identifiant : vecteur valeurs}, mesure de dissimilarité,
 Sortie : groupes
 """
 def kmeans(D, methode, centres):
-        Clusters1 = initialise_k_group(D, methode, centres)                   
+        Clusters1 = initialise_k_group(D, methode, centres)         
 	Clusters = converge(Clusters1, D, methode)
         
         return Clusters
