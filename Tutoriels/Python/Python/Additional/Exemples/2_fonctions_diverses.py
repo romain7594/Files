@@ -85,3 +85,89 @@ print reversed(nombres)
 
 print type(reversed(mot))
 print type(reversed(nombres))
+
+
+##### dia 54 #####
+fichier = open('2_fonctions_diverses_texte_dia_54.txt', 'r')
+
+ligne = fichier.readline()
+
+print type(ligne)
+print ligne
+
+fichier.close()
+
+
+##### dia 57 #####
+fichier = open('2_fonctions_diverses_texte_dia_54.txt', 'r')
+
+ligne = fichier.readline()
+print ligne
+ligne = fichier.readline()
+print ligne
+ligne = fichier.readline()
+print ligne
+ligne = fichier.readline()
+print ligne
+
+fichier.close()
+
+
+##### dia 59 #####
+fichier = open('2_fonctions_diverses_texte_dia_54.txt', 'r')
+
+lignes = fichier.readlines()
+
+print lignes
+
+fichier.close()
+
+
+##### dia 61 #####
+fichier = open('texte2.txt', 'w')
+
+fichier.write("Ceci est une chaine de caracteres")
+
+fichier.close()
+
+
+##### dia 63 #####
+fichier = open('2_fonctions_diverses_texte_dia_54.txt', 'a')
+
+fichier.write('cinquieme ligne')
+
+fichier.close()
+
+
+##### dia 65 #####
+nombre1 = 3
+nombre2 = 76
+nombre3 = 40
+nombre4 = max(nombre2, nombre3)
+nombre5 = min(nombre2, nombre3)
+
+print nombre4
+print max(nombre1, nombre3)
+print max(nombre1, nombre2, nombre3)
+
+print nombre5
+print min(nombre1, nombre2, nombre3)
+print min(nombre2, nombre3)
+
+
+##### dia 67 #####
+nombres = range(10, 0, -1)
+lettres = 'dkfhskfhksjh'
+
+print nombres
+print sorted(nombres)
+print sorted(lettres)
+
+nombres = range(10)
+lettres = 'kjqshlskvfdkljm'
+
+print nombres
+print sorted(nombres, reverse=True)
+print sorted(lettres, reverse=True)
+
+               
