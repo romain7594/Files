@@ -6,7 +6,7 @@ Des tutoriels ? Encore ????
 Mais il y en a déjà 1000 sur le net ... Oui je suis au courant, mais les miens sont "particuliers", de mon point de vue.
 
 Mais tout d'abord, qui suis-je ?
-Je m'appelle Romain, et je viens non pas d'un cursus informatique, mais d'un cursus biologie. Je me suis ensuite tourné vers un double cursus qu'est la bioinformatique (biologie + informatique), dans lequel je me suis perfectionné en informatique, et plus particulièrment en programmation.
+Je m'appelle Romain, et je viens non pas d'un cursus informatique, mais d'un cursus biologie. Je me suis ensuite tourné vers un double cursus qu'est la bioinformatique (biologie + informatique), dans lequel je me suis perfectionné en informatique, et plus particulièrment en programmation. Actuellement, j'occupe un poste d'ingénieur d'étude dans une entreprise d'ingénierie et conseil en technologies, dans lequel je fais du développement en python.
 
 Et tu proposes des tutos en informatique WTF ?
 Oui parce qu'au cours de mes années universitaires, j'ai eu l'occasion de découvrir la programmation en informatique, en commençant par le langage C, puis le langage Python. Aujourd'hui je me suis plus spécialisé en python parce que dans le cursus bioinformatique, le langage python est le plus utilisé et plus facile à prendre en main que le langage C, étant donné que nous travaillions beaucoup sur des séquences de caractères.
