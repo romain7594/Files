@@ -26,7 +26,7 @@ Oui. J'ai choisi ce format pour changer du format livre, où toutes les informat
 Mais tu viens de te contredire non ?
 Oui. Mais par contenir beaucoup d'information, je veux dire que dans une diapositive, j'essaye de mettre le stricte minimum à la compréhension du concept. Rien ne sert de charger charger charger, on ne va qu'embrouiller le lecteur/lectrice.
 
-Ces diapositives sont destinées à toute personne voulant apprendre de façon autonome. Ils peuvent être utilisés comme présentation à projeter pour plusieurs personnes à la fois, mais ce n'est pas le but principal. Ils ne sont pas également destinées à ceux/celles qui veulent apprendre, mais aussi à ceux et celles qui veulent enseigner, les aidant par exemple à établir un plan d'enseignement.
+Ces diapositives sont destinées à toute personne voulant apprendre de façon autonome. Ils peuvent être utilisés comme présentation à projeter pour plusieurs personnes à la fois, mais ce n'est pas le but principal. Ils ne sont également pas destinées à ceux/celles qui veulent apprendre seulement, mais aussi à ceux et celles qui veulent enseigner, les aidant par exemple à établir un plan d'enseignement.
 
 J'essaye de mettre le maximum d'information tout en les minimisant pour qu'à la fin, la personne n'a pas de question à poser. Certes, il en aura, mais peu (j'espère). J'y ajoute également une "pointe" d'humour sans exagérer puisque je trouve cela plus confortable d'apprendre en s'amusant et en rigolant que de manière trop sérieuse, stricte et trop linéaire.
 
