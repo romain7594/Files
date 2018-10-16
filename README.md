@@ -1,6 +1,6 @@
 Bienvenue !
 
-Tu trouvera ici plusieurs tutoriels, notamment des tutoriels en python !
+Tu trouveras ici plusieurs tutoriels, notamment des tutoriels en python !
 
 Des tutoriels ? Encore ????
 Mais il y en a déjà 1000 sur le net ... Oui je suis au courant, mais les miens sont "particuliers", de mon point de vue.
