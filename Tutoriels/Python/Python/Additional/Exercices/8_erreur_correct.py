@@ -2,10 +2,10 @@
 #-*- coding: utf-8 -*-
 
 import math
-import random                                  ######################## ajout de import random
+import random                                  ######## ajout de import random
 
-variable1 = 100                                ######################## pas d'accent dans un nom de variable
-variable2 = 500                                ########
+variable1 = 100                                ######## pas d'accent dans un nom de variable
+variable2 = 500                                ######## indentation non nécessaire
 variable3 = 13.8                               ######## indentation non nécessaire
 	
 print math.log(variable1, 10)
