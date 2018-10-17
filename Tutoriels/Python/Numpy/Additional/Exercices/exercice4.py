@@ -1,8 +1,8 @@
 import numpy
 
 M = numpy.array([   [11, 12, 15],
-		    [10, 11, 32],
-		    [40, 18, 10]   ])
+		     [10, 11, 32],
+		     [40, 18, 10]   ])
 
 ### Somme cumulee par ligne
 cumsum = numpy.cumsum(M, axis=1)
@@ -22,9 +22,9 @@ print "Moyenne :", str(moy)
 
 
 M5 = numpy.array([  [11, 20, 18, 98],
-		    [13, 54, 34, 1],
-		    [17, 39, 31, 58],
-		    [24, 71, 70, 87]   ])
+		     [13, 54, 34, 1],
+		     [17, 39, 31, 58],
+		     [24, 71, 70, 87]   ])
 		    
 
 ### Somme cumulee par ligne
