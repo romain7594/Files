@@ -19,7 +19,7 @@ a2 = numpy.array([  [2, 1, 4],
 		    
 b2 = numpy.array([16, 9, 20])
 
-S2 = numpy.linalg.solve(a2, b1)
+S2 = numpy.linalg.solve(a2, b2)
 
 print "Solution :"
 print "x :", S2[0]
