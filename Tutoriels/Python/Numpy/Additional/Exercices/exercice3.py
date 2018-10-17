@@ -8,3 +8,6 @@ tmp = numpy.vsplit(M, [1:])
 
 premiere_ligne = tmp[0]
 lignes_suivantes = tmp[1]
+
+print premiere_ligne
+print lignes_suivantes
