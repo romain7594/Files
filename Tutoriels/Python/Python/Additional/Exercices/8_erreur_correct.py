@@ -14,11 +14,11 @@ for i in range(20):                            #######  ":" à la fin d'un for
 	variable1 = variable+10
 	
 	if variable1 == 200:
-		print "Supérieur à 200"        ####### indentation
+		print "Supérieur à 200"         ####### indentation
 	
 	
 if variable2 > 300:
-	print "Oh bien !!!"                    ####### " à la place de ' avant Oh
+	print "Oh bien !!!"                     ####### " à la place de ' avant Oh
 	variable3 = variable2+variable3
 
 else:
