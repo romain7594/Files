@@ -1,7 +1,7 @@
 import numpy
 
 a1 = numpy.array([  [1, 1],
-		    [2, 5]  ])
+		     [2, 5]  ])
 		  
 b1 = numpy.array([3, 12])
 
