@@ -42,4 +42,4 @@ moy5 = numpy.mean(M5)
 
 
 print "Somme cumulee par ligne : ", c5
-print "Moyenne :", str(moy5)
+print "Moyenne :", moy5
