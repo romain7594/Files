@@ -21,7 +21,7 @@ if variable2 > 300:
 	variable3 = variable2+variable3
 
 else:
-	print "Peut mieux faire'
+	print "Peut mieux faire"
 	
 valeur_aleatoire = random.random()
 print valeur_aleatoire
