@@ -17,7 +17,9 @@ print M
 
 
 ##### 3 #####
-L = M[1]
+import copy
+
+L = copy.copy(M[1])
 
 print M
 print L
