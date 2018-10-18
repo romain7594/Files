@@ -3,13 +3,13 @@ import re
 L = []
 D = {}
 
-nom_famille = re.compile("\s(\w*)$")
+nom_famille = re.compile("\s([A-Z]+)$")
 numero = re.compile("^(\d{1,4})\s")
-nom_rue = re.compile("\d{1,4}\s(\.*)$")
+nom_rue = re.compile("^\d{1,4}\s([a-z'\s]+)\n$")
 code_postal = re.compile("^(\d{5})\s")
-ville = re.compile("^\d{5}\s(\.*)$")
+ville = re.compile("^\d{5}\s(\w+)$")
 
-f = open("adresse.txt", 'r')
+f = open("adresses.txt", 'r')
 
 line = f.readline()
 
@@ -37,7 +37,7 @@ while line != "" :
 			
 		S4 = ville.search(line)
 		if S4 :
-			D[ville"] = s4.group(1)
+			D["ville"] = S4.group(1)
 		
 	line = f.readline()
 
@@ -45,8 +45,10 @@ f.close()
 
 L.append(D)
 
+for i in L :
+	print i, "\n"
+
 for personne in L :
 	print "Nom :", personne["nom famille"]
 	print "Adresse :", personne["numero"], personne["nom rue"]
 	print "Ville :", personne["code postal"], personne["ville"], "\n"
-		
