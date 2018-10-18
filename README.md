@@ -17,7 +17,7 @@ Revenons sur les tutoriels en python que j'ai réalisé. Premièrement, pourquoi
 Au cours de notre double cursus bioinformatique, nous avions réalisé que tout le monde n'avait pas forcément les bases requises pour suivre ce cursus, n'ayant pas un niveau de programmation suffisant (venant d'un cursus non informatique ou ne savant pas programmer en python). Nous avions tous des difficultés au début pour appréhender la programmation en python (même moi d'ailleurs). Et c'est avec acharnement et une entraide mutuelle que nous avons pu réussir. Me sentant à l'aise au bout d'un certain temps, j'ai donc décidé de réaliser des tutoriels en python qui apporteront une aide à mes camarades moins à l'aise.
 
 Mais tes camarades peuvent aller voir les tutos sur le net non ?
-Oui certes, sauf que j'ai moi même regardé ces tutoriels, et de ce que j'ai vu, c'est rempli de texte, de blabla, de termes techniques, ... en format "livre". Afin de simplifier tout cela, j'ai décidé de réaliser des tutos plis "clairs".
+Oui certes, sauf que j'ai moi même regardé ces tutoriels, et de ce que j'ai vu, c'est rempli de texte, de blabla, de termes techniques, ... en format "livre". Afin de simplifier tout cela, j'ai décidé de réaliser des tutos plus "clairs".
 
 Ce que je fais :
 je lis ces fameux "tutos sur le net", et je n'en prends que l'essentiel. Je laisse tout le blabla de côté. Je rassemble ensuite ces informations dans mes diapositives.
