@@ -20,7 +20,7 @@ Mais tes camarades peuvent aller voir les tutos sur le net non ?
 Oui certes, sauf que j'ai moi même regardé ces tutoriels, et de ce que j'ai vu, c'est rempli de texte, de blabla, de termes techniques, ... en format "livre". Afin de simplifier tout cela, j'ai décidé de réaliser des tutos plus "clairs".
 
 Ce que je fais :
-je lis ces fameux "tutos sur le net", et je n'en prends que l'essentiel. Je laisse tout le blabla de côté. Je rassemble ensuite ces informations dans mes diapositives.
+je lis ces fameux "tutos sur le net", et je n'en prends que l'essentiel. Je laisse tout le blabla de côté. Je rassemble ensuite ces informations dans mes diapositives, que je décortique au mieux.
 
 Des diapositives ?
 Oui. J'ai choisi ce format pour changer du format livre, où toutes les informations sont compactées, et dur à assimiler en une fois. Pour moi les diapositives sont déjà de plus grande taille et permettent de contenir beaucoup d'information.
