@@ -9,9 +9,9 @@ for i in range(1000):
 	tirages.append(T)
 	all += T
 	
-plt.hist(all, bins=[0.5+i for i in range(49)])
-plt.xticks(range(1, 49))
-plt.xlim(0, 49)
+plt.hist(all, bins=[0.5+i for i in range(50)])
+plt.xticks(range(1, 50), size=7)
+plt.xlim(0, 50)
 
 plt.show()
 plt.close()
