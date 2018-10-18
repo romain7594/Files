@@ -7,7 +7,7 @@ c = "START NB 12.56.7 silhouette marche.49 fin"
 r = motif.search(c)
 
 print r.group(0)
-print r.groupe(1)
+print r.group(1)
 
 print "Debut :", r.start()
-print "Fin" :", r.end()
+print "Fin :", r.end()
