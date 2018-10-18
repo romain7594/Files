@@ -4,22 +4,19 @@ M = numpy.array([   [11, 12, 15],
 		     [10, 11, 32],
 		     [40, 18, 10]   ])
 dico_indice = {}
-i = 0
+k = 0
 
 for i in range(len(M)) :
 	for j in range(len(M[i])) :
-		dico_indice[[i, j] = i
-		i += 1
+		dico_indice[str(i)+"."+str(j)] = k
+		k += 1
 		
 indice_nombre = dico_indice.items()
-
 dico_indice = {}
 
 for i in indice_nombre :
-	dico_indice[i[1]] = i[0]
+	dico_indice[i[1]] = [int(i[0].split(".")[0]), int(i[0].split(".")[1])]
 
-
-		
 mini = numpy.argmin(M)
 maxi = numpy.argmax(M)
 
@@ -39,4 +36,4 @@ for i in range(M.shape[0]):
 			
 print M
 print indice_mini
-print indice_mini
+print indice_maxi
