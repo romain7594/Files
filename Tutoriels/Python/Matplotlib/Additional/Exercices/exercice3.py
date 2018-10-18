@@ -9,11 +9,13 @@ plt.plot(X, onze, label="2011")
 plt.plot(X, douze, label="2012")
 plt.plot(X, treize, label="2013")
 
-
+plt.xlim(0, 11)
 plt.xlabel("Mois")
-plt.ylabel("Temperature (°C)")
-plt.xticks(["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"], rotation=45)
-plt.title("Temperature moyenne au cours des annees 2011, 2012 et 2013")
+plt.ylabel("Temperature (degres celcius)")
+plt.xticks(range(12), ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"], rotation=20)
+plt.title("Temperature moyenne\nau cours des annees 2011, 2012 et 2013")
+
+plt.legend()
 plt.grid(True)
 
 plt.show()
