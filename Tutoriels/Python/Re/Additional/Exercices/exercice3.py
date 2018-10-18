@@ -45,9 +45,6 @@ f.close()
 
 L.append(D)
 
-for i in L :
-	print i, "\n"
-
 for personne in L :
 	print "Nom :", personne["nom famille"]
 	print "Adresse :", personne["numero"], personne["nom rue"]
