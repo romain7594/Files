@@ -5,7 +5,7 @@ D = {}
 
 nom_famille = re.compile("\s(\w*)$")
 numero = re.compile("^(\d{1,4})\s")
-nom_rue = re.compile("\d{1,4}\s(\.*)$)
+nom_rue = re.compile("\d{1,4}\s(\.*)$")
 code_postal = re.compile("^(\d{5})\s")
 ville = re.compile("^\d{5}\s(\.*)$")
 
