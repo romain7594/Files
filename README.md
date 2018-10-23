@@ -1,6 +1,6 @@
 À venir :
 
-22-28 octobre :
+Novembre :
 
    - Tutoriel python programmation orienté objet
 
