@@ -1,0 +1,2 @@
+class NomDeLaClasse(object):
+	pass
