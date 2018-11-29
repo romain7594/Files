@@ -18,6 +18,6 @@ class Bouteille(Cylindre, ActionRecipient):
                 self.hauteur_cone = hauteur//4
 
         def volume(self):
-                V = super().volume(self.hauteur)
-                C = super().volume(self.hauteur_cone)/3
+                V = super(Bouteille, self).volume(self.hauteur)
+                C = super(Bouteille, self).volume(self.hauteur_cone)/3
                 return C+V
