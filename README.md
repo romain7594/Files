@@ -1,6 +1,6 @@
-À venir :
+Ajout :
 
-Novembre :
+29 novembre 2048 :
 
    - Tutoriel python programmation orienté objet
 
