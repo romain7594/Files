@@ -5,7 +5,9 @@ class Exemple(object):
 E = Exemple()
 E.element= "voiture"
 
+
 ###################################################
+
 
 class Exemple(object):
 	def __setattr__(self, attr, val):
