@@ -6,7 +6,9 @@ class Point(object):
 P = Point(1, 2)
 print(P)
 
+
 ###################################################
+
 
 class Point(object):
 	def _init__(self, x, y):
