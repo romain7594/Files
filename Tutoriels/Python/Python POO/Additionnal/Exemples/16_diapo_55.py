@@ -10,6 +10,6 @@ class Personne(object):
 			return False
 			
 P = Personne("Bernard", 170)
-P2 = Personne'"Gregoire", 176)
+P2 = Personne("Gregoire", 176)
 
 print(P < P2)
