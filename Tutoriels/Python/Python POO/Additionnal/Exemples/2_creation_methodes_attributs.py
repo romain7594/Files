@@ -1,5 +1,4 @@
 ##### dia 12 #####
-
 class NomDeLaClasse(object):
 	pass
 
