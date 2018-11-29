@@ -1,2 +1,0 @@
-class NomDeLaClasse(object):
-	pass
