@@ -1,6 +1,6 @@
 import random
 
-argent = random.randint(0, 150)
+argent = random.randint(0, 200)
 
 class Voiture(object):
         def __init__(self):
