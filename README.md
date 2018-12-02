@@ -1,10 +1,8 @@
-Ajout :
+Mises à jour :
 
-29 novembre 2018 :
+2 décembre 2018 :
 
    - Tutoriel python programmation orienté objet https://github.com/romain7594/Files/blob/master/Tutoriels/Python/Python%20POO/Python%20objet.pdf
-
-Mises à jour :
 
 16 octobre 2018 :
 
