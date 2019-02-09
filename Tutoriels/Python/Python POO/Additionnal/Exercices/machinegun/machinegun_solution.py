@@ -2,30 +2,15 @@ import contextlib, random, sys
 with contextlib.redirect_stdout(None):
         import pygame
 
-import random, sys
+import random
+import sys
 
 pygame.mixer.init()
 
 class MachineGun(object):
         def __init__(self):
-                self._magazine = 50
-                self._bullets = 200
-
-        def _get_magazine(self):
-                return self._magazine
-
-        def _set_magazine(self, val):
-                self._magazine = val
-
-        magazine = property(_get_magazine, _set_magazine)
-
-        def _get_bullets(self):
-                return self._bullets
-
-        def _set_bullets(self, val):
-                self._bullets = val
-
-        bullets = property(_get_bullets, _set_bullets)
+                self.magazine = 50
+                self.bullets = 200
 
         def fire(self):
                 pygame.mixer.Sound("fire.wav").play()
@@ -92,7 +77,7 @@ class MachineGun(object):
                         print("End")
                         sys.exit()
 
-                if self.magazine == 0 and MachineGun.bullets == 0 :
+                if self.magazine == 0 and self.bullets == 0 :
                         print("End")
                         sys.exit()
 
