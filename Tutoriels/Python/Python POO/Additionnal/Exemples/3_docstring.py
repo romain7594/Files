@@ -1,4 +1,4 @@
-##### dia 28 et 29 #####
+##### dia 30 et 31 #####
 class Point(object):
 	"""Classe Point contenant les coordonnees x et y"""
 	def __init__(self):
