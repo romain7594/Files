@@ -1,4 +1,4 @@
-##### dia 72 #####
+##### dia 65 #####
 class A(object):
         pass
 
@@ -6,7 +6,7 @@ class B(A):
         pass
 
 
-##### dia 73 #####
+##### dia 66 #####
 class A(object):
         def __init__(self):
                 self.a = 1
@@ -23,7 +23,7 @@ print(P.a, P.b)
 P.affiche()
 
 
-##### dia 74 et 75 #####
+##### dia 67 et 68 #####
 class Cylindre(object):
         def __init__(self, hauteur, rayon):
                 self.hauteur = hauteur
@@ -43,7 +43,7 @@ class Bouteille(Cylindre):
                 self.rayon = rayon
 
 
-##### dia 77 #####
+##### dia 70 #####
 class UnObjet(object):
         def affiche(self):
                 print("Hello")
@@ -64,7 +64,7 @@ B.affiche()
 C.affiche()
 
 
-##### dia 78 #####
+##### dia 71 #####
 class Bouteille(Cylindre):
         def __init__(self, hauteur, rayon):
                 Cylindre.__init__(self, hauteur, rayon)
@@ -75,7 +75,7 @@ print(T.rayon)
 print(T.hauteur)
 
 
-##### dia 79 #####
+##### dia 72 #####
 class Bouteille(Cylindre):
         def __init__(self, hauteur, rayon):
                 Cylindre.__init__(self, hauteur, rayon)
@@ -95,7 +95,7 @@ R = RouleauDePapierToilette(4, 2)
 print("Rouleau de papier toilette pesant {}g et ayant une fonction d'{}".format(R.poids, R.utilisation))
 
 
-##### dia 81 et 82 #####
+##### dia 74 et 75 #####
 class Cylindre(object):
         def __init__(self, hauteur, rayon):
                 self.hauteur = hauteur
@@ -117,3 +117,15 @@ class Bouteille(Cylindre):
 
 T = Bouteille(8, 2)
 print(T.volume())
+
+
+##### dia 76 #####
+class Cylindre(object):
+        def __init__(self, hauteur, rayon):
+                super().__init__(self, hauteur-hauteur//4, rayon)
+                self.hauteur_cone = hauteur//4
+
+        def volume(self):
+                V = Cylindre.volume(self.hauteur)            # ou super().volume(...)
+                C = Cylindre.volume(self.hauteur_cone)/3.    # ou super().volume(...)
+                return C+V
