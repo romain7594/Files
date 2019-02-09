@@ -1,4 +1,4 @@
-##### dia 66 #####
+##### dia 59 #####
 print("Affichage provenant du fichier {}.py". format(__name__))
 
 
