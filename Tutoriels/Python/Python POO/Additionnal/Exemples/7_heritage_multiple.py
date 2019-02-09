@@ -1,4 +1,4 @@
-##### dia 86 #####
+##### dia 79 #####
 class ClasseMere(object):
 	def affiche1(self):
 		print("Je suis ta mere")
@@ -15,7 +15,7 @@ F.affiche1()
 F.affiche2()
 
 
-##### dia 87 #####
+##### dia 80 #####
 class ClasseMere(object):
 	def affiche(self):
 		print("Je suis ta mere")
