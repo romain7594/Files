@@ -1,4 +1,4 @@
-##### dia 50 #####
+##### dia 43 #####
 class Point(object):
         def __init__(self, x, y):
                 self.x = x
@@ -26,7 +26,7 @@ print(P)
 print(str(P))
 
 
-##### dia 51 #####
+##### dia 44 #####
 class Point(object):
         def __init__(self, x, y):
                 self.x = x
@@ -41,7 +41,7 @@ print(P)
 print(repr(P))
 
 
-##### dia 53 #####
+##### dia 46 #####
 class Panier(object):
         def __init__(self):
                 self.nb_pommes = 4
@@ -62,7 +62,7 @@ P2 = P + [30, 17]
 print(P2)
 
 
-##### dia 55 #####
+##### dia 48 #####
 class Personne(object):
         def __init__(self, prenom, taille):
                 self.prenom = prenom
@@ -81,7 +81,7 @@ P2 = Personne("Gregoire", 176)
 print(P < P2)
 
 
-##### dia 56 #####
+##### dia 49 #####
 class Exemple(object):
         def __init__(self, element):
                 self.element = element
@@ -95,7 +95,7 @@ E2 = Exemple("ballon")
 print(E1 & E2)
 
 
-##### dia 58 #####
+##### dia 51 #####
 class Exemple(object):
         def __init__(self, element):
                 self.element = element
@@ -123,7 +123,7 @@ E = Exemple("voiture")
 print(E.elemen)
 
 
-##### dia 59 #####
+##### dia 52 #####
 class Exemple(object):
         def __setattr__(self, attr, val):
                 self.attr = val
@@ -146,7 +146,7 @@ E = Exemple()
 E.element = "voiture"
 
 
-##### dia 60 #####
+##### dia 53 #####
 class Exemple(object):
         def __init__(self):
                 self.objet = "Diamant"
@@ -159,7 +159,7 @@ E = Exemple()
 del E.objet
 
 
-##### dia 61 #####
+##### dia 54 #####
 class Exemple(object):
         def __init__(self):
                 self.objet = "Diamant"
@@ -172,7 +172,7 @@ E = Exemple()
 E.objet = "Je vous l'emprunte"
 
 
-##### dia 63 #####
+##### dia 56 #####
 class Exemple(object):
         def __init__(self):
                 self.objet = [1, 2, 3, 4, 5]
