@@ -60,3 +60,50 @@ class Point(object):
 		
 P = Point(5, 6)
 print(P.retourne())
+
+
+##### dia 25 #####
+class UneClasse(object):
+        def __init__(self):
+                self.a = 5
+                self.p = 2
+
+        def nouvelle_valeur(self):
+                self.a = 5
+                self.p = 10
+
+        def rien(self):
+                a = 65
+                p = 10
+
+                return a, p
+
+u = UneClasse()
+
+print(u.a, u.p)
+u.nouvelle_valeur()
+print(u.a, u.p)
+print(u.rien())
+
+
+##### dia 26 #####
+def multiplie(a, b, c):
+        return a*b*c
+
+class UneClasse(object):
+        def __init__(self):
+                self.a = 5
+                self.p = 2
+
+        def multiplie(self, a, b):
+                return a*b
+
+        def nouvelle_valeur(self):
+                self.a = multiplie(self.p, self.p, self.p)
+                self.p = self.multiplie(self.a, self.a)
+
+u = UneClasse()
+
+print(u.a, u.p)
+u.nouvelle_valeur()
+print(u.a, u.p)
