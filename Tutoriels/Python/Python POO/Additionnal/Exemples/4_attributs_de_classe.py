@@ -1,4 +1,4 @@
-##### dia 39 et 40 #####
+##### dia 33 et 34 #####
 class Point(object):
 	forme = "rond"
 	
@@ -11,7 +11,7 @@ P.forme = "carre"
 print(P.forme)
 
 
-##### dia 41 #####
+##### dia 35 #####
 class Point(object):
 	forme = "rond"
 	
